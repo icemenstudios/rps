@@ -1,0 +1,163 @@
+@font-face {
+  font-family: MathleteFont;
+  src: url(./font/mathlete_bulky.otf);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #2FCF56;
+  font-family:'MathleteFont';
+  color:#fff;
+}
+.actionBtn {
+  margin-bottom: 20px;
+}
+.title {
+  font-size:48px;
+}
+.titleSmall {
+  font-size:24px;
+  margin-top:30px;
+}
+.labelUsername {
+  font-size:36px;
+  margin-top:90px;
+}
+.life {
+  z-index: 100;
+  margin-top:5px;
+}
+.placeHolder {
+  background-color: #fff;
+  min-height: 157.5px;
+  margin: auto;
+  position: relative;
+  z-index: 100;
+}
+.placeHolder .overlay {
+  position: absolute;
+  z-index: 200;
+  margin: 10px;
+}
+.resultaatLbl {
+  font-size: 36px;
+  margin-bottom: 60px;
+
+}
+.resultaatLbl span {
+  font-size: 48px;
+
+}
+
+.spelen {
+  font-size:48px;
+  background-color: #2FCF56;
+  padding: 0 124px;
+  border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  text-shadow:0px 1px 0px #2f6627;
+  margin: 30px auto;
+  color:#fff;
+}
+.spelen:hover {
+  background-color:#5cbf2a;
+}
+.spelen:active {
+	position:relative;
+	top:1px;
+}
+.userImg {
+  margin-top:20px;
+}
+.userLabel,.contestantLabel {
+  position: absolute;
+  bottom: 0;
+
+}
+.contestantLabel {
+}
+.userLabel {
+  right: 20%;
+}
+.vs {
+  font-size: 36px;
+}
+
+.grey {
+  background-color: #EDEDED;
+  padding-top:112px;
+}
+#userName {
+  margin: 30px 0;
+  width: 100%;
+  min-height: 60px;
+
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+.images {
+  margin-top:70px;
+}
+.images img:first-child {
+  margin-right: 15px;
+}
+.images img:last-child {
+  margin-left: 30px;
+}
+.keuze {
+  font-size:36px;
+  color:#2FCF56;
+}
+
+.teller {
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      border-radius: 50%;
+      border: solid 3px #2FCF56;
+      color:#2FCF56;
+      font-size: 36px;
+      line-height: 1;
+      text-align: center;
+      padding-left: 5px;
+    }

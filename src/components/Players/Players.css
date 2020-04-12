@@ -1,0 +1,33 @@
+.life {
+  z-index: 100;
+  margin-top:5px;
+}
+.life img:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.placeHolder {
+  background-color: #fff;
+  min-height: 157.5px;
+  margin: auto;
+  position: relative;
+  z-index: 100;
+}
+.placeHolder .overlay {
+  position: absolute;
+  z-index: 200;
+  margin: 10px;
+}
+.userLabel {
+  right: 20%;
+}
+.userImg {
+  margin-top:20px;
+}
+.winner .bottom {
+  padding-top:215px;
+  height: 40%;
+}
+.winner .resultaatLbl {
+  line-height:0.9; padding-top:15px; margin-bottom:15px;
+}
